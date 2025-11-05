@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #FF005C;
+  --cyan: #00F0FF;
+  --black: #000000;
+  --white: #FFFFFF;
+  --yellow: #FFD600;
+  --green: #00FF85;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, textarea, select {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.neo-shadow {
+  box-shadow: 6px 6px 0 var(--black);
+}
+
+.neo-shadow-sm {
+  box-shadow: 4px 4px 0 var(--black);
+}
+
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0 var(--black);
+}
+
+.neo-border {
+  border: 3px solid var(--black);
+}
+
+.neo-border-thick {
+  border: 4px solid var(--black);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+  border-left: 3px solid var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pink);
+  border: 2px solid var(--black);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cyan);
+}
